@@ -37,27 +37,19 @@ make develop
 ```sh
 ~ $ yhwh -3ms אמר
 ויאמר
-
-~ $ yhwh - ראה
-ותאמר
-
-echo "אמר
-ראה
-היה" | yhwh --he --story
-# ויאמר
-# וירא
-# ויהי
+~ $ echo AAA | yhwh -3ms
+wyAAA
 ```
 
 ## Run without installing
 
-```bash
+```sh
 python -m yhwh --he --story אמר
 ```
 
 ## Test
 
-```bash
+```sh
 make check
 ```
 
