@@ -61,8 +61,12 @@ make check
 
 ## Philosophy
 
-The goal is not “correct Biblical Hebrew morphology in every case.”
+The goal is not "correct Biblical Hebrew morphology in every case."
+
 The goal is a model of the generative grammar of biblical hebrew,
+
 that works and is accurate in as many cases as possible,
+
 until we get tired and too drunk to aerflnksידעme
+
 EOF
