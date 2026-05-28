@@ -14,13 +14,11 @@ YHWH defaults to wayyiqtol format.
 >
 > And YHWH replied
 >
-> I'll happily explain why
+> I'll explain why
 >
-> if you bring one goat
+> if you bring a goat to the tabernacle,
 >
-> to the tabernacle,
->
-> otherwise you can die.
+> else you can die.
 
 Supported verb forms:
 
