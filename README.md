@@ -41,12 +41,6 @@ make develop
 wyAAA
 ```
 
-## Run without installing
-
-```sh
-python -m yhwh --he --story אמר
-```
-
 ## Test
 
 ```sh
@@ -56,20 +50,16 @@ make check
 ## Import usage
 
 ```python
-from yhwh import derive
+>>> from yhwh import derive
+>>> yhwh.derive("אמר")
+'ויאמר'
 
-assert derive("אמר", "story", "3ms") == "ויאמר"
-assert derive("ראה", "story", "3fs") == "ותרא"
 ```
 
 ## Philosophy
 
 The goal is not “correct Biblical Hebrew morphology in every case.”
-The goal is a programmable toy model matching the derivational grammar style:
-
-```text
-ROOT
-→ add person marker
-→ apply weak-root rewrite rules
-→ optionally add story-w
-```
+The goal is a model of the generative grammar of biblical hebrew,
+that works and is accurate in as many cases as possible,
+until we get tired and too drunk to aerflnksידעme
+EOF
