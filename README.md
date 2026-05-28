@@ -50,10 +50,13 @@ make check
 ## Import usage
 
 ```python
->>> from yhwh import derive
+
+# be levite
+>>> import yhwh
+
+# now some grammar
 >>> yhwh.derive("אמר")
 'ויאמר'
-
 ```
 
 ## Philosophy
