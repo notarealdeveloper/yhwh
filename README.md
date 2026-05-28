@@ -17,7 +17,7 @@ YHWH defaults to wayyiqtol format.
 > I'll gladly explain why
 
 > if bring one goat to the tabernacle,
-
+>
 > otherwise you can go die.
 
 Supported verb forms:
