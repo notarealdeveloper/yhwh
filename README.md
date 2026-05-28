@@ -9,10 +9,15 @@ YHWH takes a three-letter Hebrew root verb form and applies generative rules.
 YHWH defaults to wayyiqtol format.
 
 > But why default wayyiqtol?
+
 > Said the reader to YHWH.
+
 > And YHWH replied
+
 > I'll gladly explain why
+
 > if bring one goat to the tabernacle,
+
 > otherwise you can go die.
 
 Supported verb forms:
