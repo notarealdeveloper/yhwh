@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 
-from __future__ import annotations
-
-import argparse
 import sys
+import argparse
 
 from .core import Conjugation, Person, derive, normalize_root, rough_derivation
 
@@ -34,6 +32,16 @@ def build_parser() -> argparse.ArgumentParser:
     g.add_argument("-p", "--plural", action="store_const", const="p", dest="number", help="plural")
     g.add_argument("-m", "--masculine", action="store_const", const="m", dest="gender", help="masculine")
     g.add_argument("-f", "--feminine", action="store_const", const="f", dest="gender", help="feminine")
+
+    # compact person flags: yhwh -3ms, yhwh -1p, etc.
+    for code in PERSONS:
+        g.add_argument(
+            f"-{code}",
+            dest="person_alias",
+            action="store_const",
+            const=code,
+            help=f"alias for --person {code}",
+        )
 
     g.add_argument("--person", choices=PERSONS, help="direct person code")
     g.add_argument("--I", dest="person_alias", action="store_const", const="1s", help="alias for --person 1s")
