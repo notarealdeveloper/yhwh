@@ -1,29 +1,40 @@
 # yhwh
 
-Tiny rule-based Biblical Hebrew-ish verb generator.
+Biblical Hebrew verb conjugator.
 
-This is deliberately **not** a verb dictionary. It takes a three-letter root-like string and applies broad generative rules.
+YHWH is not a dictionary. Dictionaries are gay.
 
-Supported root scripts:
+YHWH takes a three-letter Hebrew root verb form and applies generative rules.
 
-- Latin logical roots: `AMR`, `RAH`, `HYH`, `XXX`
-- Hebrew roots: `אמר`, `ראה`, `היה`, `חחח`
-- Paleo Hebrew roots: `𐤀𐤌𐤓`, `𐤇𐤇𐤇`
+YHWH defaults to wayyiqtol format.
+
+> But why default wayyiqtol?
+> Said the reader to YHWH.
+> And YHWH replied
+> I'll gladly explain why
+> if bring one goat to the tabernacle,
+> otherwise you can go die.
+
+Supported verb forms:
+
+- Latin alphabet: `AMR`, `RAH`, `HYH`, `XXX`
+- Hebrew alphabet: `אמר`, `ראה`, `היה`, `חחח`
+- Paleo Hebrew roots: `𐤀𐤌𐤓`, `𐤇𐤇𐤇` .cte
 
 ## Install for development
 
-```bash
+```sh
 make develop
 ```
 
 ## Run
 
-```bash
-yhwh --he --story אמר
-# ויאמר
+```sh
+~ $ yhwh -3ms אמר
+ויאמר
 
-yhwh --she --story ראה
-# ותרא
+~ $ yhwh - ראה
+ותאמר
 
 echo "אמר
 ראה
